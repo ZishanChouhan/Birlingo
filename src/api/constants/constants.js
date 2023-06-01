@@ -1,8 +1,4 @@
-const baseApiUrl = 'https://birlingo.de:8081/api/webservice';
-// const baseApiUrl = 'https://admin.birlingo.de:17276/api/webservice';
-// const baseApiUrl = 'http://172.16.11.252:8081/api/webservice';
-// https://birlingo.devtechnosys.tech:17274/api/webservice/
-//  const baseApiUrl = 'https://birlingo.devtechnosys.tech:17275/api/webservice/';
+const baseApiUrl = 'https://example.com/api/webservice';
 
 apiVersion = 'api';
 const apiUrls = {
