@@ -1,0 +1,7 @@
+#Wed May 03 12:22:37 IST 2023
+base.1=/Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/build/intermediates/dex/release/mergeDexRelease/classes2.dex
+path.1=classes2.dex
+base.0=/Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

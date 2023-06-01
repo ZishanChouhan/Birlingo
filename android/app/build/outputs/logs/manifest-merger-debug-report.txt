@@ -1,0 +1,793 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:1:1-38:12
+INJECTED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:1:1-38:12
+INJECTED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:1:1-38:12
+INJECTED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:1:1-38:12
+MERGED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:1:1-38:12
+MERGED from [com.google.android.gms:play-services-wallet:16.0.0] /Users/mac-4/.gradle/caches/transforms-3/531ecd68c2e9a62d5c57f435ab5c572d/transformed/jetified-play-services-wallet-16.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [:react-native-splash-screen] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-splash-screen/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-12:12
+MERGED from [:react-native-iap] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-iap/android/build/intermediates/merged_manifest/playDebug/AndroidManifest.xml:2:1-10:12
+MERGED from [:react-native-async-storage_async-storage] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-clipboard_clipboard] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-clipboard/clipboard/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_art] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-community/art/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_netinfo] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-12:12
+MERGED from [:react-native-community_toolbar-android] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-community/toolbar-android/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-34:12
+MERGED from [:react-native-firebase_app] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-32:12
+MERGED from [:react-native-background-timer] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-background-timer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-call-detection] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-call-detection/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-16:12
+MERGED from [:react-native-device-info] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-fs] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-fs/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-gesture-handler] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-keep-awake] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-keep-awake/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-linear-gradient] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-linear-gradient/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-restart] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-restart/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-safe-area-context] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-svg] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-svg/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-vector-icons] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-webview] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-21:12
+MERGED from [com.facebook.react:react-native:0.68.5] /Users/mac-4/.gradle/caches/transforms-3/07efadde12abe05c69ee767ed7365b1a/transformed/jetified-react-native-0.68.5/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/mac-4/.gradle/caches/transforms-3/1feb864c75a1abc458eccba8e09543f1/transformed/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.2.0] /Users/mac-4/.gradle/caches/transforms-3/59e4b7f5ffb8332dde253106c6d75d7d/transformed/browser-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/mac-4/.gradle/caches/transforms-3/3311647681101b543dfc3ce00b9c904c/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.1.0] /Users/mac-4/.gradle/caches/transforms-3/edf70e4fd0787c7c3135c16f32e9af04/transformed/material-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/mac-4/.gradle/caches/transforms-3/d63946375a3910b799931c8daf88c1f8/transformed/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/mac-4/.gradle/caches/transforms-3/04f73f889214f468b9d94237c9cbbc93/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-auth:20.3.0] /Users/mac-4/.gradle/caches/transforms-3/d2a844b62e9d56c16841f90cfac3f18c/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-identity:15.0.1] /Users/mac-4/.gradle/caches/transforms-3/05881e99400d7d527ca64728041bc692/transformed/jetified-play-services-identity-15.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/mac-4/.gradle/caches/transforms-3/a885ebb5e5fea271e6b60c9ee9f2e7e6/transformed/jetified-play-services-maps-15.0.1/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/mac-4/.gradle/caches/transforms-3/0a221357521871082ad400544dcd27f0/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.firebase:firebase-analytics:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/e1fd13cea2c7a5920b052bc2e1badf39/transformed/jetified-firebase-analytics-21.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/9eadc3f88e42e982862d2a24cf6149c6/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-installations:17.1.2] /Users/mac-4/.gradle/caches/transforms-3/572dcc25cf8dc4df540e9da62e316ebf/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:2:1-23:12
+MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/mac-4/.gradle/caches/transforms-3/898bb9e704892152269b50e8005b35cc/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/mac-4/.gradle/caches/transforms-3/9328ba61d0cc28ca45cbb5739943c680/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/mac-4/.gradle/caches/transforms-3/5f591c37cca93ea750fef795b631c54e/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/mac-4/.gradle/caches/transforms-3/55a57e02b5974c0f655f1c4dff03ea11/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/918e09931bc81134afb4df3223fa6127/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/276c348c27f27792d733577b6818792e/transformed/jetified-play-services-measurement-sdk-21.2.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /Users/mac-4/.gradle/caches/transforms-3/b22410fc260af960d064f8c00b48e308/transformed/jetified-firebase-installations-interop-17.1.0/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/mac-4/.gradle/caches/transforms-3/b7cd3de508a42886dada54a0a63568ac/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/7840fcc176ffdaf9c8d36d252a275726/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/mac-4/.gradle/caches/transforms-3/93a8fb904e00d49a2c9d75ba33cf650b/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/mac-4/.gradle/caches/transforms-3/7b9f47a7c4dc49603cd7815256d2421c/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/219f8398e8c24a5e4f2a184ae06dd40a/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/eb673186b3c74a7497a07bd0b8fecc05/transformed/jetified-play-services-measurement-base-21.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/mac-4/.gradle/caches/transforms-3/c4efe27cfb976e57d0fa56b4623c5636/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/mac-4/.gradle/caches/transforms-3/a0bbb912ddf64661bf70171b2fdc1fd9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/mac-4/.gradle/caches/transforms-3/b50a9c753d0b3cc80ed08c7ee8bfb2ea/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/mac-4/.gradle/caches/transforms-3/85cc11f7602f1caac362b6ff82eb84a1/transformed/fragment-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/mac-4/.gradle/caches/transforms-3/c6f9a70d471726ab0252ece21aa81bf0/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.webkit:webkit:1.4.0] /Users/mac-4/.gradle/caches/transforms-3/ad77dd766718ed8f925cfacabb6fd890/transformed/webkit-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/mac-4/.gradle/caches/transforms-3/e4a48157224d0763d799fa9e99c24e00/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.1.0] /Users/mac-4/.gradle/caches/transforms-3/3ebd5f4f966a2dba997b5ff4ec96de79/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mac-4/.gradle/caches/transforms-3/b95cd9b6b93572495214fa6c6c40976e/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/mac-4/.gradle/caches/transforms-3/ba39446398f95a78a33b49ef35951527/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/mac-4/.gradle/caches/transforms-3/39cbba6a667283b9e3290e71c043788b/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mac-4/.gradle/caches/transforms-3/724cf4d252d3b99068022991505b7a15/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] /Users/mac-4/.gradle/caches/transforms-3/5319122237ecd730929a06f265699831/transformed/jetified-activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/mac-4/.gradle/caches/transforms-3/e2c20d5f7779af90a8834996927603a3/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/mac-4/.gradle/caches/transforms-3/1b586d7b054be9a4c12160ec05b9431f/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/mac-4/.gradle/caches/transforms-3/fe57e6dd2931be7d6cfe74eade1df044/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/mac-4/.gradle/caches/transforms-3/c91ad0e1d50b997c728b196d2f32501c/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/mac-4/.gradle/caches/transforms-3/08a474cf10b363d6c0da0a60ffeab5cd/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] /Users/mac-4/.gradle/caches/transforms-3/2a9f05318b87dd5fa22d81c9fcd65ebb/transformed/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mac-4/.gradle/caches/transforms-3/33fdf451f43caa2fbd3391e0655d8d04/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mac-4/.gradle/caches/transforms-3/1e82affc9456996b86409b30dedc3d94/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mac-4/.gradle/caches/transforms-3/cc0477463c875f0eb92018fa30b69b90/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/mac-4/.gradle/caches/transforms-3/6de9018c97e39b56e9f08943ffb398db/transformed/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/mac-4/.gradle/caches/transforms-3/e48084675336370d378fce4f4e9b5f19/transformed/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/mac-4/.gradle/caches/transforms-3/4ea50f006864e053f9d3c43cfdc882c0/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/mac-4/.gradle/caches/transforms-3/ff95ec3fb173bc9fa17044a4c85e5e55/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:15:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/mac-4/.gradle/caches/transforms-3/91044090a486c819ad4faf5db14679af/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/mac-4/.gradle/caches/transforms-3/6cc60be8e2e273e8005ac5704b69d460/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mac-4/.gradle/caches/transforms-3/39583e343025a88f6453dd9b9644b855/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/mac-4/.gradle/caches/transforms-3/7bd8adc887fde406e738ebeff2be5edb/transformed/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/mac-4/.gradle/caches/transforms-3/6537c3b42bae3b57d7c1f47c3c6defca/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mac-4/.gradle/caches/transforms-3/5849e3887d20d4f813aa45e571bcab35/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mac-4/.gradle/caches/transforms-3/9089c947866576964b0174a01ecc488e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/mac-4/.gradle/caches/transforms-3/77578a642459c3c06cb0b6c4d14d100a/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:animated-gif:2.0.0] /Users/mac-4/.gradle/caches/transforms-3/530eec587e25fc32ad5371efa3d5f3fa/transformed/jetified-animated-gif-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [org.webkit:android-jsc:r250230] /Users/mac-4/.gradle/caches/transforms-3/8cbe7307f677b16b691531bc9f58b069/transformed/jetified-android-jsc-r250230/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-reanimated] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-reanimated/android/build/.transforms/1e93fb945af3ff7cd6e245a838ed4676/transformed/jetified-react-native-reanimated-68-jsc/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-sound] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-sound/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-10:12
+MERGED from [com.android.billingclient:billing:4.0.0] /Users/mac-4/.gradle/caches/transforms-3/417bf65c9bfd2cec41a0502dbdd5ee67/transformed/jetified-billing-4.0.0/AndroidManifest.xml:2:1-24:12
+MERGED from [com.facebook.fresco:animated-base:2.0.0] /Users/mac-4/.gradle/caches/transforms-3/e54525c06115793188ba9dd35817b2a7/transformed/jetified-animated-base-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fresco:2.5.0] /Users/mac-4/.gradle/caches/transforms-3/d6910a5dc3dfe8e1073e3d6e2eb0cf0e/transformed/jetified-fresco-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/mac-4/.gradle/caches/transforms-3/f39e7bdfb0be8fa5bbd8f66556003a81/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:animated-drawable:2.0.0] /Users/mac-4/.gradle/caches/transforms-3/17a3649e25cef391187acae6ff2cd4db/transformed/jetified-animated-drawable-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.5.0] /Users/mac-4/.gradle/caches/transforms-3/a648e38330c9fb81499396efd4eb44f9/transformed/jetified-drawee-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.5.0] /Users/mac-4/.gradle/caches/transforms-3/d512a25abb9abc72adc1a9dd50d53301/transformed/jetified-nativeimagefilters-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-native:2.5.0] /Users/mac-4/.gradle/caches/transforms-3/0454a3eaaecd4acfcea7afc54fcd34bf/transformed/jetified-memory-type-native-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-java:2.5.0] /Users/mac-4/.gradle/caches/transforms-3/f6c4381d2774adcb1c7f8ed433edf15e/transformed/jetified-memory-type-java-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-native:2.5.0] /Users/mac-4/.gradle/caches/transforms-3/670580e5f69716eafde93cafd6981a9b/transformed/jetified-imagepipeline-native-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.5.0] /Users/mac-4/.gradle/caches/transforms-3/97d164515d5c9a008417b8974f7c84fb/transformed/jetified-memory-type-ashmem-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.5.0] /Users/mac-4/.gradle/caches/transforms-3/df263c80b0ed21cbcf42e1c1f7aa2a31/transformed/jetified-imagepipeline-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.5.0] /Users/mac-4/.gradle/caches/transforms-3/148955a41375a1f07227931c2828ac9a/transformed/jetified-nativeimagetranscoder-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.5.0] /Users/mac-4/.gradle/caches/transforms-3/6bfd41258d1a162df90fa05897146564/transformed/jetified-imagepipeline-base-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:middleware:2.5.0] /Users/mac-4/.gradle/caches/transforms-3/c11bf6b50d93110cabfaa9521b6e2b41/transformed/jetified-middleware-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:ui-common:2.5.0] /Users/mac-4/.gradle/caches/transforms-3/fcd5dbe8341b6afd25f04c3541e21854/transformed/jetified-ui-common-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:soloader:2.5.0] /Users/mac-4/.gradle/caches/transforms-3/5453968a4e98313884ceede76c3b7786/transformed/jetified-soloader-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.10.3] /Users/mac-4/.gradle/caches/transforms-3/42b0bfa6ccf499b4f74dfff74b8b6db0/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.fresco:fbcore:2.5.0] /Users/mac-4/.gradle/caches/transforms-3/8500243d368c006d8f47bb86c6038bca/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.installreferrer:installreferrer:1.1.2] /Users/mac-4/.gradle/caches/transforms-3/cc946ca307fa2cce0f9f8e07d4449328/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/mac-4/.gradle/caches/transforms-3/6edb6863c3fed5bbb916e620210eab9a/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+	package
+		ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:3:5-27
+		INJECTED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:3:5-27
+		INJECTED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:1:1-38:12
+		INJECTED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:2:5-51
+	android:versionCode
+		INJECTED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:1:1-38:12
+		INJECTED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-67
+MERGED from [:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/mac-4/.gradle/caches/transforms-3/a885ebb5e5fea271e6b60c9ee9f2e7e6/transformed/jetified-play-services-maps-15.0.1/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/mac-4/.gradle/caches/transforms-3/a885ebb5e5fea271e6b60c9ee9f2e7e6/transformed/jetified-play-services-maps-15.0.1/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/mac-4/.gradle/caches/transforms-3/0a221357521871082ad400544dcd27f0/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/mac-4/.gradle/caches/transforms-3/0a221357521871082ad400544dcd27f0/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/9eadc3f88e42e982862d2a24cf6149c6/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/9eadc3f88e42e982862d2a24cf6149c6/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:17.1.2] /Users/mac-4/.gradle/caches/transforms-3/572dcc25cf8dc4df540e9da62e316ebf/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:10:5-67
+MERGED from [com.google.firebase:firebase-installations:17.1.2] /Users/mac-4/.gradle/caches/transforms-3/572dcc25cf8dc4df540e9da62e316ebf/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:10:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/918e09931bc81134afb4df3223fa6127/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/918e09931bc81134afb4df3223fa6127/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/7840fcc176ffdaf9c8d36d252a275726/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/7840fcc176ffdaf9c8d36d252a275726/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/219f8398e8c24a5e4f2a184ae06dd40a/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/219f8398e8c24a5e4f2a184ae06dd40a/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#com.android.vending.BILLING
+ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:6:5-67
+MERGED from [com.android.billingclient:billing:4.0.0] /Users/mac-4/.gradle/caches/transforms-3/417bf65c9bfd2cec41a0502dbdd5ee67/transformed/jetified-billing-4.0.0/AndroidManifest.xml:10:5-67
+MERGED from [com.android.billingclient:billing:4.0.0] /Users/mac-4/.gradle/caches/transforms-3/417bf65c9bfd2cec41a0502dbdd5ee67/transformed/jetified-billing-4.0.0/AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:7:5-75
+MERGED from [:react-native-call-detection] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-call-detection/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-75
+MERGED from [:react-native-call-detection] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-call-detection/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-75
+	android:name
+		ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:7:22-72
+application
+ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:9:5-36:19
+MERGED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:9:5-36:19
+MERGED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:9:5-36:19
+MERGED from [:react-native-splash-screen] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-splash-screen/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-10:19
+MERGED from [:react-native-splash-screen] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-splash-screen/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-10:19
+MERGED from [:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-32:19
+MERGED from [:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-32:19
+MERGED from [:react-native-firebase_app] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-30:19
+MERGED from [:react-native-firebase_app] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-30:19
+MERGED from [:react-native-call-detection] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-call-detection/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-14:38
+MERGED from [:react-native-call-detection] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-call-detection/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-14:38
+MERGED from [:react-native-webview] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-webview] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-19:19
+MERGED from [com.facebook.react:react-native:0.68.5] /Users/mac-4/.gradle/caches/transforms-3/07efadde12abe05c69ee767ed7365b1a/transformed/jetified-react-native-0.68.5/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.react:react-native:0.68.5] /Users/mac-4/.gradle/caches/transforms-3/07efadde12abe05c69ee767ed7365b1a/transformed/jetified-react-native-0.68.5/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/mac-4/.gradle/caches/transforms-3/edf70e4fd0787c7c3135c16f32e9af04/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/mac-4/.gradle/caches/transforms-3/edf70e4fd0787c7c3135c16f32e9af04/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-auth:20.3.0] /Users/mac-4/.gradle/caches/transforms-3/d2a844b62e9d56c16841f90cfac3f18c/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.3.0] /Users/mac-4/.gradle/caches/transforms-3/d2a844b62e9d56c16841f90cfac3f18c/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-identity:15.0.1] /Users/mac-4/.gradle/caches/transforms-3/05881e99400d7d527ca64728041bc692/transformed/jetified-play-services-identity-15.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity:15.0.1] /Users/mac-4/.gradle/caches/transforms-3/05881e99400d7d527ca64728041bc692/transformed/jetified-play-services-identity-15.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/mac-4/.gradle/caches/transforms-3/a885ebb5e5fea271e6b60c9ee9f2e7e6/transformed/jetified-play-services-maps-15.0.1/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/mac-4/.gradle/caches/transforms-3/a885ebb5e5fea271e6b60c9ee9f2e7e6/transformed/jetified-play-services-maps-15.0.1/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/mac-4/.gradle/caches/transforms-3/0a221357521871082ad400544dcd27f0/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/mac-4/.gradle/caches/transforms-3/0a221357521871082ad400544dcd27f0/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:26:5-20
+MERGED from [com.google.firebase:firebase-analytics:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/e1fd13cea2c7a5920b052bc2e1badf39/transformed/jetified-firebase-analytics-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/e1fd13cea2c7a5920b052bc2e1badf39/transformed/jetified-firebase-analytics-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/9eadc3f88e42e982862d2a24cf6149c6/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/9eadc3f88e42e982862d2a24cf6149c6/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.firebase:firebase-installations:17.1.2] /Users/mac-4/.gradle/caches/transforms-3/572dcc25cf8dc4df540e9da62e316ebf/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-installations:17.1.2] /Users/mac-4/.gradle/caches/transforms-3/572dcc25cf8dc4df540e9da62e316ebf/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/mac-4/.gradle/caches/transforms-3/898bb9e704892152269b50e8005b35cc/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/mac-4/.gradle/caches/transforms-3/898bb9e704892152269b50e8005b35cc/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/mac-4/.gradle/caches/transforms-3/55a57e02b5974c0f655f1c4dff03ea11/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/mac-4/.gradle/caches/transforms-3/55a57e02b5974c0f655f1c4dff03ea11/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/918e09931bc81134afb4df3223fa6127/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/918e09931bc81134afb4df3223fa6127/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/276c348c27f27792d733577b6818792e/transformed/jetified-play-services-measurement-sdk-21.2.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/276c348c27f27792d733577b6818792e/transformed/jetified-play-services-measurement-sdk-21.2.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/mac-4/.gradle/caches/transforms-3/b7cd3de508a42886dada54a0a63568ac/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/mac-4/.gradle/caches/transforms-3/b7cd3de508a42886dada54a0a63568ac/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/7840fcc176ffdaf9c8d36d252a275726/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/7840fcc176ffdaf9c8d36d252a275726/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/mac-4/.gradle/caches/transforms-3/93a8fb904e00d49a2c9d75ba33cf650b/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/mac-4/.gradle/caches/transforms-3/93a8fb904e00d49a2c9d75ba33cf650b/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/mac-4/.gradle/caches/transforms-3/7b9f47a7c4dc49603cd7815256d2421c/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/mac-4/.gradle/caches/transforms-3/7b9f47a7c4dc49603cd7815256d2421c/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/eb673186b3c74a7497a07bd0b8fecc05/transformed/jetified-play-services-measurement-base-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/eb673186b3c74a7497a07bd0b8fecc05/transformed/jetified-play-services-measurement-base-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/mac-4/.gradle/caches/transforms-3/c4efe27cfb976e57d0fa56b4623c5636/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/mac-4/.gradle/caches/transforms-3/c4efe27cfb976e57d0fa56b4623c5636/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/mac-4/.gradle/caches/transforms-3/a0bbb912ddf64661bf70171b2fdc1fd9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/mac-4/.gradle/caches/transforms-3/a0bbb912ddf64661bf70171b2fdc1fd9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.6.0] /Users/mac-4/.gradle/caches/transforms-3/2a9f05318b87dd5fa22d81c9fcd65ebb/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /Users/mac-4/.gradle/caches/transforms-3/2a9f05318b87dd5fa22d81c9fcd65ebb/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mac-4/.gradle/caches/transforms-3/33fdf451f43caa2fbd3391e0655d8d04/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mac-4/.gradle/caches/transforms-3/33fdf451f43caa2fbd3391e0655d8d04/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.android.billingclient:billing:4.0.0] /Users/mac-4/.gradle/caches/transforms-3/417bf65c9bfd2cec41a0502dbdd5ee67/transformed/jetified-billing-4.0.0/AndroidManifest.xml:12:5-22:19
+MERGED from [com.android.billingclient:billing:4.0.0] /Users/mac-4/.gradle/caches/transforms-3/417bf65c9bfd2cec41a0502dbdd5ee67/transformed/jetified-billing-4.0.0/AndroidManifest.xml:12:5-22:19
+MERGED from [com.facebook.soloader:soloader:0.10.3] /Users/mac-4/.gradle/caches/transforms-3/42b0bfa6ccf499b4f74dfff74b8b6db0/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.10.3] /Users/mac-4/.gradle/caches/transforms-3/42b0bfa6ccf499b4f74dfff74b8b6db0/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:11:5-20
+MERGED from [com.android.installreferrer:installreferrer:1.1.2] /Users/mac-4/.gradle/caches/transforms-3/cc946ca307fa2cce0f9f8e07d4449328/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:11:5-20
+MERGED from [com.android.installreferrer:installreferrer:1.1.2] /Users/mac-4/.gradle/caches/transforms-3/cc946ca307fa2cce0f9f8e07d4449328/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:11:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] /Users/mac-4/.gradle/caches/transforms-3/2a9f05318b87dd5fa22d81c9fcd65ebb/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from [:react-native-call-detection] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-call-detection/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:12:7-39
+		ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:12:7-39
+	android:fullBackupContent
+		ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:18:9-42
+		ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:18:9-42
+	tools:ignore
+		ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/debug/AndroidManifest.xml:7:75-114
+	android:roundIcon
+		ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:15:7-52
+		ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:15:7-52
+	tools:targetApi
+		ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/debug/AndroidManifest.xml:7:54-74
+	android:icon
+		ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:13:7-41
+		ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:13:7-41
+	android:allowBackup
+		ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:14:7-34
+		ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:14:7-34
+		REJECTED from [:react-native-call-detection] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-call-detection/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:16:7-38
+		ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:16:7-38
+	tools:replace
+		ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:19:9-44
+		ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:19:9-44
+	android:usesCleartextTraffic
+		ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:17:9-44
+	android:name
+		ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:11:7-38
+		ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:11:7-38
+activity#com.birlingo.MainActivity
+ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:20:7-31:18
+	android:screenOrientation
+		ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:26:9-45
+	android:label
+		ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:23:9-41
+	android:windowSoftInputMode
+		ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:25:9-51
+	android:exported
+		ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:22:9-32
+	android:configChanges
+		ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:24:9-79
+	android:name
+		ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:21:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:27:9-30:25
+action#android.intent.action.MAIN
+ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:28:13-65
+	android:name
+		ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:28:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:29:13-73
+	android:name
+		ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:29:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:32:7-84
+	android:name
+		ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:32:17-81
+meta-data#com.google.android.gms.wallet.api.enabled
+ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:33:7-35:32
+	android:value
+		ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:35:9-29
+	android:name
+		ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:34:9-65
+uses-sdk
+INJECTED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.gms:play-services-wallet:16.0.0] /Users/mac-4/.gradle/caches/transforms-3/531ecd68c2e9a62d5c57f435ab5c572d/transformed/jetified-play-services-wallet-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wallet:16.0.0] /Users/mac-4/.gradle/caches/transforms-3/531ecd68c2e9a62d5c57f435ab5c572d/transformed/jetified-play-services-wallet-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [:react-native-splash-screen] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-splash-screen/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-splash-screen] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-splash-screen/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-iap] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-iap/android/build/intermediates/merged_manifest/playDebug/AndroidManifest.xml:6:5-8:41
+MERGED from [:react-native-iap] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-iap/android/build/intermediates/merged_manifest/playDebug/AndroidManifest.xml:6:5-8:41
+MERGED from [:react-native-async-storage_async-storage] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-async-storage_async-storage] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-clipboard_clipboard] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-clipboard/clipboard/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-clipboard_clipboard] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-clipboard/clipboard/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_art] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-community/art/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_art] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-community/art/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_netinfo] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_netinfo] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_toolbar-android] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-community/toolbar-android/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_toolbar-android] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-community/toolbar-android/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_app] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-8:41
+MERGED from [:react-native-firebase_app] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-8:41
+MERGED from [:react-native-background-timer] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-background-timer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-background-timer] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-background-timer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-call-detection] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-call-detection/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-call-detection] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-call-detection/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-device-info] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-device-info] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-fs] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-fs/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-fs] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-fs/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-keep-awake] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-keep-awake/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-keep-awake] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-keep-awake/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-linear-gradient] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-linear-gradient/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-linear-gradient] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-linear-gradient/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-restart] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-restart/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-restart] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-restart/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-svg] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-svg/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-svg] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-svg/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-vector-icons] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-vector-icons] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-webview] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-webview] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-native:0.68.5] /Users/mac-4/.gradle/caches/transforms-3/07efadde12abe05c69ee767ed7365b1a/transformed/jetified-react-native-0.68.5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-native:0.68.5] /Users/mac-4/.gradle/caches/transforms-3/07efadde12abe05c69ee767ed7365b1a/transformed/jetified-react-native-0.68.5/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/mac-4/.gradle/caches/transforms-3/1feb864c75a1abc458eccba8e09543f1/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/mac-4/.gradle/caches/transforms-3/1feb864c75a1abc458eccba8e09543f1/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.browser:browser:1.2.0] /Users/mac-4/.gradle/caches/transforms-3/59e4b7f5ffb8332dde253106c6d75d7d/transformed/browser-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.2.0] /Users/mac-4/.gradle/caches/transforms-3/59e4b7f5ffb8332dde253106c6d75d7d/transformed/browser-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/mac-4/.gradle/caches/transforms-3/3311647681101b543dfc3ce00b9c904c/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/mac-4/.gradle/caches/transforms-3/3311647681101b543dfc3ce00b9c904c/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/mac-4/.gradle/caches/transforms-3/edf70e4fd0787c7c3135c16f32e9af04/transformed/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/mac-4/.gradle/caches/transforms-3/edf70e4fd0787c7c3135c16f32e9af04/transformed/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/mac-4/.gradle/caches/transforms-3/d63946375a3910b799931c8daf88c1f8/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/mac-4/.gradle/caches/transforms-3/d63946375a3910b799931c8daf88c1f8/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/mac-4/.gradle/caches/transforms-3/04f73f889214f468b9d94237c9cbbc93/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/mac-4/.gradle/caches/transforms-3/04f73f889214f468b9d94237c9cbbc93/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-auth:20.3.0] /Users/mac-4/.gradle/caches/transforms-3/d2a844b62e9d56c16841f90cfac3f18c/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.3.0] /Users/mac-4/.gradle/caches/transforms-3/d2a844b62e9d56c16841f90cfac3f18c/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-identity:15.0.1] /Users/mac-4/.gradle/caches/transforms-3/05881e99400d7d527ca64728041bc692/transformed/jetified-play-services-identity-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-identity:15.0.1] /Users/mac-4/.gradle/caches/transforms-3/05881e99400d7d527ca64728041bc692/transformed/jetified-play-services-identity-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/mac-4/.gradle/caches/transforms-3/a885ebb5e5fea271e6b60c9ee9f2e7e6/transformed/jetified-play-services-maps-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/mac-4/.gradle/caches/transforms-3/a885ebb5e5fea271e6b60c9ee9f2e7e6/transformed/jetified-play-services-maps-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/mac-4/.gradle/caches/transforms-3/0a221357521871082ad400544dcd27f0/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/mac-4/.gradle/caches/transforms-3/0a221357521871082ad400544dcd27f0/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/e1fd13cea2c7a5920b052bc2e1badf39/transformed/jetified-firebase-analytics-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/e1fd13cea2c7a5920b052bc2e1badf39/transformed/jetified-firebase-analytics-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/9eadc3f88e42e982862d2a24cf6149c6/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/9eadc3f88e42e982862d2a24cf6149c6/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:17.1.2] /Users/mac-4/.gradle/caches/transforms-3/572dcc25cf8dc4df540e9da62e316ebf/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-installations:17.1.2] /Users/mac-4/.gradle/caches/transforms-3/572dcc25cf8dc4df540e9da62e316ebf/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/mac-4/.gradle/caches/transforms-3/898bb9e704892152269b50e8005b35cc/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/mac-4/.gradle/caches/transforms-3/898bb9e704892152269b50e8005b35cc/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/mac-4/.gradle/caches/transforms-3/9328ba61d0cc28ca45cbb5739943c680/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/mac-4/.gradle/caches/transforms-3/9328ba61d0cc28ca45cbb5739943c680/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/mac-4/.gradle/caches/transforms-3/5f591c37cca93ea750fef795b631c54e/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/mac-4/.gradle/caches/transforms-3/5f591c37cca93ea750fef795b631c54e/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/mac-4/.gradle/caches/transforms-3/55a57e02b5974c0f655f1c4dff03ea11/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/mac-4/.gradle/caches/transforms-3/55a57e02b5974c0f655f1c4dff03ea11/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/918e09931bc81134afb4df3223fa6127/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/918e09931bc81134afb4df3223fa6127/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/276c348c27f27792d733577b6818792e/transformed/jetified-play-services-measurement-sdk-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/276c348c27f27792d733577b6818792e/transformed/jetified-play-services-measurement-sdk-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /Users/mac-4/.gradle/caches/transforms-3/b22410fc260af960d064f8c00b48e308/transformed/jetified-firebase-installations-interop-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /Users/mac-4/.gradle/caches/transforms-3/b22410fc260af960d064f8c00b48e308/transformed/jetified-firebase-installations-interop-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/mac-4/.gradle/caches/transforms-3/b7cd3de508a42886dada54a0a63568ac/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/mac-4/.gradle/caches/transforms-3/b7cd3de508a42886dada54a0a63568ac/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/7840fcc176ffdaf9c8d36d252a275726/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/7840fcc176ffdaf9c8d36d252a275726/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/mac-4/.gradle/caches/transforms-3/93a8fb904e00d49a2c9d75ba33cf650b/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/mac-4/.gradle/caches/transforms-3/93a8fb904e00d49a2c9d75ba33cf650b/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/mac-4/.gradle/caches/transforms-3/7b9f47a7c4dc49603cd7815256d2421c/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/mac-4/.gradle/caches/transforms-3/7b9f47a7c4dc49603cd7815256d2421c/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/219f8398e8c24a5e4f2a184ae06dd40a/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/219f8398e8c24a5e4f2a184ae06dd40a/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/eb673186b3c74a7497a07bd0b8fecc05/transformed/jetified-play-services-measurement-base-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/eb673186b3c74a7497a07bd0b8fecc05/transformed/jetified-play-services-measurement-base-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/mac-4/.gradle/caches/transforms-3/c4efe27cfb976e57d0fa56b4623c5636/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/mac-4/.gradle/caches/transforms-3/c4efe27cfb976e57d0fa56b4623c5636/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/mac-4/.gradle/caches/transforms-3/a0bbb912ddf64661bf70171b2fdc1fd9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/mac-4/.gradle/caches/transforms-3/a0bbb912ddf64661bf70171b2fdc1fd9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/mac-4/.gradle/caches/transforms-3/b50a9c753d0b3cc80ed08c7ee8bfb2ea/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/mac-4/.gradle/caches/transforms-3/b50a9c753d0b3cc80ed08c7ee8bfb2ea/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/mac-4/.gradle/caches/transforms-3/85cc11f7602f1caac362b6ff82eb84a1/transformed/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/mac-4/.gradle/caches/transforms-3/85cc11f7602f1caac362b6ff82eb84a1/transformed/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/mac-4/.gradle/caches/transforms-3/c6f9a70d471726ab0252ece21aa81bf0/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/mac-4/.gradle/caches/transforms-3/c6f9a70d471726ab0252ece21aa81bf0/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.webkit:webkit:1.4.0] /Users/mac-4/.gradle/caches/transforms-3/ad77dd766718ed8f925cfacabb6fd890/transformed/webkit-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.webkit:webkit:1.4.0] /Users/mac-4/.gradle/caches/transforms-3/ad77dd766718ed8f925cfacabb6fd890/transformed/webkit-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/mac-4/.gradle/caches/transforms-3/e4a48157224d0763d799fa9e99c24e00/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/mac-4/.gradle/caches/transforms-3/e4a48157224d0763d799fa9e99c24e00/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] /Users/mac-4/.gradle/caches/transforms-3/3ebd5f4f966a2dba997b5ff4ec96de79/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] /Users/mac-4/.gradle/caches/transforms-3/3ebd5f4f966a2dba997b5ff4ec96de79/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mac-4/.gradle/caches/transforms-3/b95cd9b6b93572495214fa6c6c40976e/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mac-4/.gradle/caches/transforms-3/b95cd9b6b93572495214fa6c6c40976e/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/mac-4/.gradle/caches/transforms-3/ba39446398f95a78a33b49ef35951527/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/mac-4/.gradle/caches/transforms-3/ba39446398f95a78a33b49ef35951527/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/mac-4/.gradle/caches/transforms-3/39cbba6a667283b9e3290e71c043788b/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/mac-4/.gradle/caches/transforms-3/39cbba6a667283b9e3290e71c043788b/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mac-4/.gradle/caches/transforms-3/724cf4d252d3b99068022991505b7a15/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mac-4/.gradle/caches/transforms-3/724cf4d252d3b99068022991505b7a15/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] /Users/mac-4/.gradle/caches/transforms-3/5319122237ecd730929a06f265699831/transformed/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/mac-4/.gradle/caches/transforms-3/5319122237ecd730929a06f265699831/transformed/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/mac-4/.gradle/caches/transforms-3/e2c20d5f7779af90a8834996927603a3/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/mac-4/.gradle/caches/transforms-3/e2c20d5f7779af90a8834996927603a3/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/mac-4/.gradle/caches/transforms-3/1b586d7b054be9a4c12160ec05b9431f/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/mac-4/.gradle/caches/transforms-3/1b586d7b054be9a4c12160ec05b9431f/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/mac-4/.gradle/caches/transforms-3/fe57e6dd2931be7d6cfe74eade1df044/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/mac-4/.gradle/caches/transforms-3/fe57e6dd2931be7d6cfe74eade1df044/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/mac-4/.gradle/caches/transforms-3/c91ad0e1d50b997c728b196d2f32501c/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/mac-4/.gradle/caches/transforms-3/c91ad0e1d50b997c728b196d2f32501c/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/mac-4/.gradle/caches/transforms-3/08a474cf10b363d6c0da0a60ffeab5cd/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/mac-4/.gradle/caches/transforms-3/08a474cf10b363d6c0da0a60ffeab5cd/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] /Users/mac-4/.gradle/caches/transforms-3/2a9f05318b87dd5fa22d81c9fcd65ebb/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/mac-4/.gradle/caches/transforms-3/2a9f05318b87dd5fa22d81c9fcd65ebb/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mac-4/.gradle/caches/transforms-3/33fdf451f43caa2fbd3391e0655d8d04/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mac-4/.gradle/caches/transforms-3/33fdf451f43caa2fbd3391e0655d8d04/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mac-4/.gradle/caches/transforms-3/1e82affc9456996b86409b30dedc3d94/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mac-4/.gradle/caches/transforms-3/1e82affc9456996b86409b30dedc3d94/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mac-4/.gradle/caches/transforms-3/cc0477463c875f0eb92018fa30b69b90/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mac-4/.gradle/caches/transforms-3/cc0477463c875f0eb92018fa30b69b90/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/mac-4/.gradle/caches/transforms-3/6de9018c97e39b56e9f08943ffb398db/transformed/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/mac-4/.gradle/caches/transforms-3/6de9018c97e39b56e9f08943ffb398db/transformed/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/mac-4/.gradle/caches/transforms-3/e48084675336370d378fce4f4e9b5f19/transformed/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/mac-4/.gradle/caches/transforms-3/e48084675336370d378fce4f4e9b5f19/transformed/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/mac-4/.gradle/caches/transforms-3/4ea50f006864e053f9d3c43cfdc882c0/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/mac-4/.gradle/caches/transforms-3/4ea50f006864e053f9d3c43cfdc882c0/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/mac-4/.gradle/caches/transforms-3/ff95ec3fb173bc9fa17044a4c85e5e55/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/mac-4/.gradle/caches/transforms-3/ff95ec3fb173bc9fa17044a4c85e5e55/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/mac-4/.gradle/caches/transforms-3/91044090a486c819ad4faf5db14679af/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/mac-4/.gradle/caches/transforms-3/91044090a486c819ad4faf5db14679af/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/mac-4/.gradle/caches/transforms-3/6cc60be8e2e273e8005ac5704b69d460/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/mac-4/.gradle/caches/transforms-3/6cc60be8e2e273e8005ac5704b69d460/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mac-4/.gradle/caches/transforms-3/39583e343025a88f6453dd9b9644b855/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mac-4/.gradle/caches/transforms-3/39583e343025a88f6453dd9b9644b855/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/mac-4/.gradle/caches/transforms-3/7bd8adc887fde406e738ebeff2be5edb/transformed/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/mac-4/.gradle/caches/transforms-3/7bd8adc887fde406e738ebeff2be5edb/transformed/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/mac-4/.gradle/caches/transforms-3/6537c3b42bae3b57d7c1f47c3c6defca/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/mac-4/.gradle/caches/transforms-3/6537c3b42bae3b57d7c1f47c3c6defca/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mac-4/.gradle/caches/transforms-3/5849e3887d20d4f813aa45e571bcab35/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mac-4/.gradle/caches/transforms-3/5849e3887d20d4f813aa45e571bcab35/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mac-4/.gradle/caches/transforms-3/9089c947866576964b0174a01ecc488e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mac-4/.gradle/caches/transforms-3/9089c947866576964b0174a01ecc488e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/mac-4/.gradle/caches/transforms-3/77578a642459c3c06cb0b6c4d14d100a/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/mac-4/.gradle/caches/transforms-3/77578a642459c3c06cb0b6c4d14d100a/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:animated-gif:2.0.0] /Users/mac-4/.gradle/caches/transforms-3/530eec587e25fc32ad5371efa3d5f3fa/transformed/jetified-animated-gif-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-gif:2.0.0] /Users/mac-4/.gradle/caches/transforms-3/530eec587e25fc32ad5371efa3d5f3fa/transformed/jetified-animated-gif-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [org.webkit:android-jsc:r250230] /Users/mac-4/.gradle/caches/transforms-3/8cbe7307f677b16b691531bc9f58b069/transformed/jetified-android-jsc-r250230/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r250230] /Users/mac-4/.gradle/caches/transforms-3/8cbe7307f677b16b691531bc9f58b069/transformed/jetified-android-jsc-r250230/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-reanimated/android/build/.transforms/1e93fb945af3ff7cd6e245a838ed4676/transformed/jetified-react-native-reanimated-68-jsc/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-reanimated] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-reanimated/android/build/.transforms/1e93fb945af3ff7cd6e245a838ed4676/transformed/jetified-react-native-reanimated-68-jsc/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-sound] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-sound/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-8:41
+MERGED from [:react-native-sound] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-sound/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.billingclient:billing:4.0.0] /Users/mac-4/.gradle/caches/transforms-3/417bf65c9bfd2cec41a0502dbdd5ee67/transformed/jetified-billing-4.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.billingclient:billing:4.0.0] /Users/mac-4/.gradle/caches/transforms-3/417bf65c9bfd2cec41a0502dbdd5ee67/transformed/jetified-billing-4.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.facebook.fresco:animated-base:2.0.0] /Users/mac-4/.gradle/caches/transforms-3/e54525c06115793188ba9dd35817b2a7/transformed/jetified-animated-base-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-base:2.0.0] /Users/mac-4/.gradle/caches/transforms-3/e54525c06115793188ba9dd35817b2a7/transformed/jetified-animated-base-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.5.0] /Users/mac-4/.gradle/caches/transforms-3/d6910a5dc3dfe8e1073e3d6e2eb0cf0e/transformed/jetified-fresco-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.5.0] /Users/mac-4/.gradle/caches/transforms-3/d6910a5dc3dfe8e1073e3d6e2eb0cf0e/transformed/jetified-fresco-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/mac-4/.gradle/caches/transforms-3/f39e7bdfb0be8fa5bbd8f66556003a81/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/mac-4/.gradle/caches/transforms-3/f39e7bdfb0be8fa5bbd8f66556003a81/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-drawable:2.0.0] /Users/mac-4/.gradle/caches/transforms-3/17a3649e25cef391187acae6ff2cd4db/transformed/jetified-animated-drawable-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-drawable:2.0.0] /Users/mac-4/.gradle/caches/transforms-3/17a3649e25cef391187acae6ff2cd4db/transformed/jetified-animated-drawable-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.5.0] /Users/mac-4/.gradle/caches/transforms-3/a648e38330c9fb81499396efd4eb44f9/transformed/jetified-drawee-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.5.0] /Users/mac-4/.gradle/caches/transforms-3/a648e38330c9fb81499396efd4eb44f9/transformed/jetified-drawee-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.5.0] /Users/mac-4/.gradle/caches/transforms-3/d512a25abb9abc72adc1a9dd50d53301/transformed/jetified-nativeimagefilters-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.5.0] /Users/mac-4/.gradle/caches/transforms-3/d512a25abb9abc72adc1a9dd50d53301/transformed/jetified-nativeimagefilters-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.5.0] /Users/mac-4/.gradle/caches/transforms-3/0454a3eaaecd4acfcea7afc54fcd34bf/transformed/jetified-memory-type-native-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.5.0] /Users/mac-4/.gradle/caches/transforms-3/0454a3eaaecd4acfcea7afc54fcd34bf/transformed/jetified-memory-type-native-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.5.0] /Users/mac-4/.gradle/caches/transforms-3/f6c4381d2774adcb1c7f8ed433edf15e/transformed/jetified-memory-type-java-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.5.0] /Users/mac-4/.gradle/caches/transforms-3/f6c4381d2774adcb1c7f8ed433edf15e/transformed/jetified-memory-type-java-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.5.0] /Users/mac-4/.gradle/caches/transforms-3/670580e5f69716eafde93cafd6981a9b/transformed/jetified-imagepipeline-native-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.5.0] /Users/mac-4/.gradle/caches/transforms-3/670580e5f69716eafde93cafd6981a9b/transformed/jetified-imagepipeline-native-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.5.0] /Users/mac-4/.gradle/caches/transforms-3/97d164515d5c9a008417b8974f7c84fb/transformed/jetified-memory-type-ashmem-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.5.0] /Users/mac-4/.gradle/caches/transforms-3/97d164515d5c9a008417b8974f7c84fb/transformed/jetified-memory-type-ashmem-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.5.0] /Users/mac-4/.gradle/caches/transforms-3/df263c80b0ed21cbcf42e1c1f7aa2a31/transformed/jetified-imagepipeline-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.5.0] /Users/mac-4/.gradle/caches/transforms-3/df263c80b0ed21cbcf42e1c1f7aa2a31/transformed/jetified-imagepipeline-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.5.0] /Users/mac-4/.gradle/caches/transforms-3/148955a41375a1f07227931c2828ac9a/transformed/jetified-nativeimagetranscoder-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.5.0] /Users/mac-4/.gradle/caches/transforms-3/148955a41375a1f07227931c2828ac9a/transformed/jetified-nativeimagetranscoder-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.5.0] /Users/mac-4/.gradle/caches/transforms-3/6bfd41258d1a162df90fa05897146564/transformed/jetified-imagepipeline-base-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.5.0] /Users/mac-4/.gradle/caches/transforms-3/6bfd41258d1a162df90fa05897146564/transformed/jetified-imagepipeline-base-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:middleware:2.5.0] /Users/mac-4/.gradle/caches/transforms-3/c11bf6b50d93110cabfaa9521b6e2b41/transformed/jetified-middleware-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:middleware:2.5.0] /Users/mac-4/.gradle/caches/transforms-3/c11bf6b50d93110cabfaa9521b6e2b41/transformed/jetified-middleware-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.5.0] /Users/mac-4/.gradle/caches/transforms-3/fcd5dbe8341b6afd25f04c3541e21854/transformed/jetified-ui-common-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.5.0] /Users/mac-4/.gradle/caches/transforms-3/fcd5dbe8341b6afd25f04c3541e21854/transformed/jetified-ui-common-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.5.0] /Users/mac-4/.gradle/caches/transforms-3/5453968a4e98313884ceede76c3b7786/transformed/jetified-soloader-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.5.0] /Users/mac-4/.gradle/caches/transforms-3/5453968a4e98313884ceede76c3b7786/transformed/jetified-soloader-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.10.3] /Users/mac-4/.gradle/caches/transforms-3/42b0bfa6ccf499b4f74dfff74b8b6db0/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.10.3] /Users/mac-4/.gradle/caches/transforms-3/42b0bfa6ccf499b4f74dfff74b8b6db0/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:fbcore:2.5.0] /Users/mac-4/.gradle/caches/transforms-3/8500243d368c006d8f47bb86c6038bca/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.5.0] /Users/mac-4/.gradle/caches/transforms-3/8500243d368c006d8f47bb86c6038bca/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.installreferrer:installreferrer:1.1.2] /Users/mac-4/.gradle/caches/transforms-3/cc946ca307fa2cce0f9f8e07d4449328/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.installreferrer:installreferrer:1.1.2] /Users/mac-4/.gradle/caches/transforms-3/cc946ca307fa2cce0f9f8e07d4449328/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/mac-4/.gradle/caches/transforms-3/6edb6863c3fed5bbb916e620210eab9a/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/mac-4/.gradle/caches/transforms-3/6edb6863c3fed5bbb916e620210eab9a/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/debug/AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/debug/AndroidManifest.xml:5:22-75
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:react-native-community_netinfo] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+MERGED from [:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+MERGED from [:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/mac-4/.gradle/caches/transforms-3/a885ebb5e5fea271e6b60c9ee9f2e7e6/transformed/jetified-play-services-maps-15.0.1/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/mac-4/.gradle/caches/transforms-3/a885ebb5e5fea271e6b60c9ee9f2e7e6/transformed/jetified-play-services-maps-15.0.1/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/9eadc3f88e42e982862d2a24cf6149c6/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/9eadc3f88e42e982862d2a24cf6149c6/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:17.1.2] /Users/mac-4/.gradle/caches/transforms-3/572dcc25cf8dc4df540e9da62e316ebf/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:9:5-79
+MERGED from [com.google.firebase:firebase-installations:17.1.2] /Users/mac-4/.gradle/caches/transforms-3/572dcc25cf8dc4df540e9da62e316ebf/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:9:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/918e09931bc81134afb4df3223fa6127/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/918e09931bc81134afb4df3223fa6127/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/7840fcc176ffdaf9c8d36d252a275726/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/7840fcc176ffdaf9c8d36d252a275726/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/219f8398e8c24a5e4f2a184ae06dd40a/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/219f8398e8c24a5e4f2a184ae06dd40a/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [:react-native-community_netinfo] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [:react-native-community_netinfo] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-76
+	android:name
+		ADDED from [:react-native-community_netinfo] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-68
+MERGED from [:react-native-background-timer] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-background-timer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-68
+MERGED from [:react-native-background-timer] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-background-timer/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/9eadc3f88e42e982862d2a24cf6149c6/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/9eadc3f88e42e982862d2a24cf6149c6/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/918e09931bc81134afb4df3223fa6127/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/918e09931bc81134afb4df3223fa6127/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/7840fcc176ffdaf9c8d36d252a275726/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/7840fcc176ffdaf9c8d36d252a275726/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/219f8398e8c24a5e4f2a184ae06dd40a/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/219f8398e8c24a5e4f2a184ae06dd40a/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-65
+meta-data#firebase_analytics_collection_enabled
+ADDED from [:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-16:36
+	android:value
+		ADDED from [:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-33
+	android:name
+		ADDED from [:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-65
+meta-data#firebase_analytics_collection_deactivated
+ADDED from [:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-19:37
+	android:value
+		ADDED from [:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-34
+	android:name
+		ADDED from [:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-69
+meta-data#google_analytics_adid_collection_enabled
+ADDED from [:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-22:36
+	android:value
+		ADDED from [:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-33
+	android:name
+		ADDED from [:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-68
+meta-data#google_analytics_ssaid_collection_enabled
+ADDED from [:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-25:36
+	android:value
+		ADDED from [:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-33
+	android:name
+		ADDED from [:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-69
+meta-data#google_analytics_default_allow_ad_personalization_signals
+ADDED from [:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:9-28:36
+	android:value
+		ADDED from [:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-33
+	android:name
+		ADDED from [:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-85
+meta-data#google_analytics_automatic_screen_reporting_enabled
+ADDED from [:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:9-31:36
+	android:value
+		ADDED from [:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:31:13-33
+	android:name
+		ADDED from [:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-79
+meta-data#app_data_collection_default_enabled
+ADDED from [:react-native-firebase_app] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-13:36
+	android:value
+		ADDED from [:react-native-firebase_app] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-33
+	android:name
+		ADDED from [:react-native-firebase_app] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-63
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:react-native-firebase_app] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/9eadc3f88e42e982862d2a24cf6149c6/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/9eadc3f88e42e982862d2a24cf6149c6/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-installations:17.1.2] /Users/mac-4/.gradle/caches/transforms-3/572dcc25cf8dc4df540e9da62e316ebf/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-installations:17.1.2] /Users/mac-4/.gradle/caches/transforms-3/572dcc25cf8dc4df540e9da62e316ebf/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/mac-4/.gradle/caches/transforms-3/898bb9e704892152269b50e8005b35cc/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:20.3.0] /Users/mac-4/.gradle/caches/transforms-3/898bb9e704892152269b50e8005b35cc/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [:react-native-firebase_app] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+	tools:targetApi
+		ADDED from [:react-native-firebase_app] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-32
+	android:directBootAware
+		ADDED from [:react-native-firebase_app] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-43
+	android:name
+		ADDED from [:react-native-firebase_app] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-84
+meta-data#com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar
+ADDED from [:react-native-firebase_app] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [:react-native-firebase_app] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [:react-native-firebase_app] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-120
+provider#io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider
+ADDED from [:react-native-firebase_app] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-29:38
+	android:authorities
+		ADDED from [:react-native-firebase_app] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-86
+	android:exported
+		ADDED from [:react-native-firebase_app] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-37
+	android:initOrder
+		ADDED from [:react-native-firebase_app] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-35
+	android:name
+		ADDED from [:react-native-firebase_app] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-88
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:react-native-fs] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-fs/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from [:react-native-fs] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-fs/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-78
+provider#com.reactnativecommunity.webview.RNCWebViewFileProvider
+ADDED from [:react-native-webview] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+	android:grantUriPermissions
+		ADDED from [:react-native-webview] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+	android:authorities
+		ADDED from [:react-native-webview] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-64
+	android:exported
+		ADDED from [:react-native-webview] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [:react-native-webview] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-83
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-webview] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:63
+	android:resource
+		ADDED from [:react-native-webview] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-60
+	android:name
+		ADDED from [:react-native-webview] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:20.3.0] /Users/mac-4/.gradle/caches/transforms-3/d2a844b62e9d56c16841f90cfac3f18c/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:20.3.0] /Users/mac-4/.gradle/caches/transforms-3/d2a844b62e9d56c16841f90cfac3f18c/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.3.0] /Users/mac-4/.gradle/caches/transforms-3/d2a844b62e9d56c16841f90cfac3f18c/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:20.3.0] /Users/mac-4/.gradle/caches/transforms-3/d2a844b62e9d56c16841f90cfac3f18c/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.3.0] /Users/mac-4/.gradle/caches/transforms-3/d2a844b62e9d56c16841f90cfac3f18c/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:20.3.0] /Users/mac-4/.gradle/caches/transforms-3/d2a844b62e9d56c16841f90cfac3f18c/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.3.0] /Users/mac-4/.gradle/caches/transforms-3/d2a844b62e9d56c16841f90cfac3f18c/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:20.3.0] /Users/mac-4/.gradle/caches/transforms-3/d2a844b62e9d56c16841f90cfac3f18c/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:20.3.0] /Users/mac-4/.gradle/caches/transforms-3/d2a844b62e9d56c16841f90cfac3f18c/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.3.0] /Users/mac-4/.gradle/caches/transforms-3/d2a844b62e9d56c16841f90cfac3f18c/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:34:13-89
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:15.0.1] /Users/mac-4/.gradle/caches/transforms-3/a885ebb5e5fea271e6b60c9ee9f2e7e6/transformed/jetified-play-services-maps-15.0.1/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] /Users/mac-4/.gradle/caches/transforms-3/a885ebb5e5fea271e6b60c9ee9f2e7e6/transformed/jetified-play-services-maps-15.0.1/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] /Users/mac-4/.gradle/caches/transforms-3/a885ebb5e5fea271e6b60c9ee9f2e7e6/transformed/jetified-play-services-maps-15.0.1/AndroidManifest.xml:28:9-32
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-iid:17.0.0] /Users/mac-4/.gradle/caches/transforms-3/0a221357521871082ad400544dcd27f0/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-iid:17.0.0] /Users/mac-4/.gradle/caches/transforms-3/0a221357521871082ad400544dcd27f0/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:22-79
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/9eadc3f88e42e982862d2a24cf6149c6/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/7840fcc176ffdaf9c8d36d252a275726/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/7840fcc176ffdaf9c8d36d252a275726/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/mac-4/.gradle/caches/transforms-3/7b9f47a7c4dc49603cd7815256d2421c/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/mac-4/.gradle/caches/transforms-3/7b9f47a7c4dc49603cd7815256d2421c/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/219f8398e8c24a5e4f2a184ae06dd40a/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/219f8398e8c24a5e4f2a184ae06dd40a/transformed/jetified-play-services-measurement-sdk-api-21.2.0/AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/9eadc3f88e42e982862d2a24cf6149c6/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:25:22-76
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/9eadc3f88e42e982862d2a24cf6149c6/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/9eadc3f88e42e982862d2a24cf6149c6/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/9eadc3f88e42e982862d2a24cf6149c6/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:32:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.1.2] /Users/mac-4/.gradle/caches/transforms-3/572dcc25cf8dc4df540e9da62e316ebf/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.1.2] /Users/mac-4/.gradle/caches/transforms-3/572dcc25cf8dc4df540e9da62e316ebf/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.1.2] /Users/mac-4/.gradle/caches/transforms-3/572dcc25cf8dc4df540e9da62e316ebf/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:18:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.3.0] /Users/mac-4/.gradle/caches/transforms-3/898bb9e704892152269b50e8005b35cc/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:25:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /Users/mac-4/.gradle/caches/transforms-3/898bb9e704892152269b50e8005b35cc/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:27:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /Users/mac-4/.gradle/caches/transforms-3/898bb9e704892152269b50e8005b35cc/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:29:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /Users/mac-4/.gradle/caches/transforms-3/898bb9e704892152269b50e8005b35cc/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:28:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /Users/mac-4/.gradle/caches/transforms-3/898bb9e704892152269b50e8005b35cc/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.3.0] /Users/mac-4/.gradle/caches/transforms-3/898bb9e704892152269b50e8005b35cc/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:26:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/mac-4/.gradle/caches/transforms-3/55a57e02b5974c0f655f1c4dff03ea11/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/mac-4/.gradle/caches/transforms-3/55a57e02b5974c0f655f1c4dff03ea11/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/mac-4/.gradle/caches/transforms-3/55a57e02b5974c0f655f1c4dff03ea11/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/mac-4/.gradle/caches/transforms-3/55a57e02b5974c0f655f1c4dff03ea11/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/918e09931bc81134afb4df3223fa6127/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/7840fcc176ffdaf9c8d36d252a275726/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/7840fcc176ffdaf9c8d36d252a275726/transformed/jetified-play-services-measurement-impl-21.2.0/AndroidManifest.xml:26:5-110
+MERGED from [com.android.installreferrer:installreferrer:1.1.2] /Users/mac-4/.gradle/caches/transforms-3/cc946ca307fa2cce0f9f8e07d4449328/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:5-110
+MERGED from [com.android.installreferrer:installreferrer:1.1.2] /Users/mac-4/.gradle/caches/transforms-3/cc946ca307fa2cce0f9f8e07d4449328/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/918e09931bc81134afb4df3223fa6127/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/918e09931bc81134afb4df3223fa6127/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/918e09931bc81134afb4df3223fa6127/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/918e09931bc81134afb4df3223fa6127/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/918e09931bc81134afb4df3223fa6127/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/918e09931bc81134afb4df3223fa6127/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/918e09931bc81134afb4df3223fa6127/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/918e09931bc81134afb4df3223fa6127/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/918e09931bc81134afb4df3223fa6127/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/918e09931bc81134afb4df3223fa6127/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/918e09931bc81134afb4df3223fa6127/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/918e09931bc81134afb4df3223fa6127/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/918e09931bc81134afb4df3223fa6127/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/918e09931bc81134afb4df3223fa6127/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:40:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/mac-4/.gradle/caches/transforms-3/a0bbb912ddf64661bf70171b2fdc1fd9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/mac-4/.gradle/caches/transforms-3/a0bbb912ddf64661bf70171b2fdc1fd9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/mac-4/.gradle/caches/transforms-3/a0bbb912ddf64661bf70171b2fdc1fd9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+meta-data#com.google.android.play.billingclient.version
+ADDED from [com.android.billingclient:billing:4.0.0] /Users/mac-4/.gradle/caches/transforms-3/417bf65c9bfd2cec41a0502dbdd5ee67/transformed/jetified-billing-4.0.0/AndroidManifest.xml:13:9-15:37
+	android:value
+		ADDED from [com.android.billingclient:billing:4.0.0] /Users/mac-4/.gradle/caches/transforms-3/417bf65c9bfd2cec41a0502dbdd5ee67/transformed/jetified-billing-4.0.0/AndroidManifest.xml:15:13-34
+	android:name
+		ADDED from [com.android.billingclient:billing:4.0.0] /Users/mac-4/.gradle/caches/transforms-3/417bf65c9bfd2cec41a0502dbdd5ee67/transformed/jetified-billing-4.0.0/AndroidManifest.xml:14:13-73
+activity#com.android.billingclient.api.ProxyBillingActivity
+ADDED from [com.android.billingclient:billing:4.0.0] /Users/mac-4/.gradle/caches/transforms-3/417bf65c9bfd2cec41a0502dbdd5ee67/transformed/jetified-billing-4.0.0/AndroidManifest.xml:17:9-21:75
+	android:exported
+		ADDED from [com.android.billingclient:billing:4.0.0] /Users/mac-4/.gradle/caches/transforms-3/417bf65c9bfd2cec41a0502dbdd5ee67/transformed/jetified-billing-4.0.0/AndroidManifest.xml:20:13-37
+	android:configChanges
+		ADDED from [com.android.billingclient:billing:4.0.0] /Users/mac-4/.gradle/caches/transforms-3/417bf65c9bfd2cec41a0502dbdd5ee67/transformed/jetified-billing-4.0.0/AndroidManifest.xml:19:13-96
+	android:theme
+		ADDED from [com.android.billingclient:billing:4.0.0] /Users/mac-4/.gradle/caches/transforms-3/417bf65c9bfd2cec41a0502dbdd5ee67/transformed/jetified-billing-4.0.0/AndroidManifest.xml:21:13-72
+	android:name
+		ADDED from [com.android.billingclient:billing:4.0.0] /Users/mac-4/.gradle/caches/transforms-3/417bf65c9bfd2cec41a0502dbdd5ee67/transformed/jetified-billing-4.0.0/AndroidManifest.xml:18:13-78

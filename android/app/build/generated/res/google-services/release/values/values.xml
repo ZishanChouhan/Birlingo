@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">105221082816-4gnm79pv6vpf47shudurrrf8iap1pn6v.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://birlingo-9e2a2.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">105221082816</string>
+    <string name="google_api_key" translatable="false">AIzaSyAQH1uqOztVhRwxwc-KufD8nt0sv16j-hg</string>
+    <string name="google_app_id" translatable="false">1:105221082816:android:fdebef56a72b93c678e725</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAQH1uqOztVhRwxwc-KufD8nt0sv16j-hg</string>
+    <string name="google_storage_bucket" translatable="false">birlingo-9e2a2.appspot.com</string>
+    <string name="project_id" translatable="false">birlingo-9e2a2</string>
+</resources>

@@ -1,0 +1,114 @@
+{
+  "identifier" : "7C73D65A",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "99.99",
+      "familyShareable" : false,
+      "internalID" : "53C96B1C",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "Unbegrenzt",
+          "displayName" : "Unbegrenzt",
+          "locale" : "ar"
+        }
+      ],
+      "productID" : "Birlingo_SubsUn1",
+      "referenceName" : "Language_subscription_unlimited",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "68025F1B",
+      "localizations" : [
+
+      ],
+      "name" : "lesson content access",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "29.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "C2D9FB77",
+          "introductoryOffer" : {
+            "internalID" : "7C724425",
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P2W"
+          },
+          "localizations" : [
+            {
+              "description" : "",
+              "displayName" : "",
+              "locale" : "en_US"
+            },
+            {
+              "description" : "3 Monate",
+              "displayName" : "Vierteljahrlich",
+              "locale" : "de"
+            }
+          ],
+          "productID" : "Birlingo_Subs3",
+          "recurringSubscriptionPeriod" : "P3M",
+          "referenceName" : "Language_subscription_month3",
+          "subscriptionGroupID" : "68025F1B",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "47.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "282DBB58",
+          "introductoryOffer" : {
+            "internalID" : "DD62509B",
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P2W"
+          },
+          "localizations" : [
+            {
+              "description" : "",
+              "displayName" : "",
+              "locale" : "en_US"
+            },
+            {
+              "description" : "6 Monate",
+              "displayName" : "Halbjahrlich",
+              "locale" : "de"
+            }
+          ],
+          "productID" : "Birlingo_Subs6",
+          "recurringSubscriptionPeriod" : "P6M",
+          "referenceName" : "Language_subscription_month6",
+          "subscriptionGroupID" : "68025F1B",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 1,
+    "minor" : 2
+  }
+}

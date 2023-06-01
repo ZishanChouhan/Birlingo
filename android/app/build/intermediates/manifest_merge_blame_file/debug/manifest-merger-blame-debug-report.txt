@@ -1,0 +1,312 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.birlingo"
+4    android:versionCode="58"
+5    android:versionName="1.5.8" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:5:5-67
+12-->/Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:5:22-64
+13    <uses-permission android:name="com.android.vending.BILLING" />
+13-->/Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:6:5-67
+13-->/Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:6:22-64
+14    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+14-->/Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:7:5-75
+14-->/Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:7:22-72
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[:react-native-community_netinfo] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+15-->[:react-native-community_netinfo] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+16-->[:react-native-community_netinfo] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-76
+16-->[:react-native-community_netinfo] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-73
+17    <uses-permission android:name="android.permission.WAKE_LOCK" />
+17-->[:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-68
+17-->[:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-65
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->[:react-native-fs] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-fs/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+18-->[:react-native-fs] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-fs/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-78
+19
+20    <uses-feature
+20-->[com.google.android.gms:play-services-maps:15.0.1] /Users/mac-4/.gradle/caches/transforms-3/a885ebb5e5fea271e6b60c9ee9f2e7e6/transformed/jetified-play-services-maps-15.0.1/AndroidManifest.xml:26:5-28:35
+21        android:glEsVersion="0x00020000"
+21-->[com.google.android.gms:play-services-maps:15.0.1] /Users/mac-4/.gradle/caches/transforms-3/a885ebb5e5fea271e6b60c9ee9f2e7e6/transformed/jetified-play-services-maps-15.0.1/AndroidManifest.xml:27:9-41
+22        android:required="true" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+22-->[com.google.android.gms:play-services-maps:15.0.1] /Users/mac-4/.gradle/caches/transforms-3/a885ebb5e5fea271e6b60c9ee9f2e7e6/transformed/jetified-play-services-maps-15.0.1/AndroidManifest.xml:28:9-32
+23    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+23-->[com.google.android.gms:play-services-iid:17.0.0] /Users/mac-4/.gradle/caches/transforms-3/0a221357521871082ad400544dcd27f0/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:5-82
+23-->[com.google.android.gms:play-services-iid:17.0.0] /Users/mac-4/.gradle/caches/transforms-3/0a221357521871082ad400544dcd27f0/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:22-79
+24    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+24-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/9eadc3f88e42e982862d2a24cf6149c6/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:25:5-79
+24-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/9eadc3f88e42e982862d2a24cf6149c6/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:25:22-76
+25    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+25-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/918e09931bc81134afb4df3223fa6127/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:5-110
+25-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/918e09931bc81134afb4df3223fa6127/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:22-107
+26
+27    <application
+27-->/Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:9:5-36:19
+28        android:name="com.birlingo.MainApplication"
+28-->/Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:11:7-38
+29        android:allowBackup="false"
+29-->/Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:14:7-34
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.6.0] /Users/mac-4/.gradle/caches/transforms-3/2a9f05318b87dd5fa22d81c9fcd65ebb/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:extractNativeLibs="false"
+33        android:fullBackupContent="false"
+33-->/Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:18:9-42
+34        android:icon="@mipmap/ic_launcher"
+34-->/Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:13:7-41
+35        android:label="@string/app_name"
+35-->/Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:12:7-39
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->/Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:15:7-52
+37        android:supportsRtl="true"
+37-->[:react-native-call-detection] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-call-detection/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-35
+38        android:testOnly="true"
+39        android:theme="@style/AppTheme"
+39-->/Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:16:7-38
+40        android:usesCleartextTraffic="true" >
+40-->/Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:17:9-44
+41        <activity
+41-->/Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:20:7-31:18
+42            android:name="com.birlingo.MainActivity"
+42-->/Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:21:9-37
+43            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+43-->/Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:24:9-79
+44            android:exported="true"
+44-->/Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:22:9-32
+45            android:label="@string/app_name"
+45-->/Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:23:9-41
+46            android:screenOrientation="portrait"
+46-->/Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:26:9-45
+47            android:windowSoftInputMode="adjustResize" >
+47-->/Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:25:9-51
+48            <intent-filter>
+48-->/Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:27:9-30:25
+49                <action android:name="android.intent.action.MAIN" />
+49-->/Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:28:13-65
+49-->/Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:28:21-62
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->/Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:29:13-73
+51-->/Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:29:23-70
+52            </intent-filter>
+53        </activity>
+54        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+54-->/Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:32:7-84
+54-->/Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:32:17-81
+55
+56        <meta-data
+56-->/Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:33:7-35:32
+57            android:name="com.google.android.gms.wallet.api.enabled"
+57-->/Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:34:9-65
+58            android:value="true" />
+58-->/Users/mac-4/Desktop/git/audio_bridge/birlingo-app/android/app/src/main/AndroidManifest.xml:35:9-29
+59        <meta-data
+59-->[:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-16:36
+60            android:name="firebase_analytics_collection_enabled"
+60-->[:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-65
+61            android:value="true" />
+61-->[:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-33
+62        <meta-data
+62-->[:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-19:37
+63            android:name="firebase_analytics_collection_deactivated"
+63-->[:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-69
+64            android:value="false" />
+64-->[:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-34
+65        <meta-data
+65-->[:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-22:36
+66            android:name="google_analytics_adid_collection_enabled"
+66-->[:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-68
+67            android:value="true" />
+67-->[:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-33
+68        <meta-data
+68-->[:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-25:36
+69            android:name="google_analytics_ssaid_collection_enabled"
+69-->[:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-69
+70            android:value="true" />
+70-->[:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-33
+71        <meta-data
+71-->[:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:9-28:36
+72            android:name="google_analytics_default_allow_ad_personalization_signals"
+72-->[:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-85
+73            android:value="true" />
+73-->[:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-33
+74        <meta-data
+74-->[:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:9-31:36
+75            android:name="google_analytics_automatic_screen_reporting_enabled"
+75-->[:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-79
+76            android:value="true" />
+76-->[:react-native-firebase_analytics] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:31:13-33
+77        <meta-data
+77-->[:react-native-firebase_app] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-13:36
+78            android:name="app_data_collection_default_enabled"
+78-->[:react-native-firebase_app] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-63
+79            android:value="true" />
+79-->[:react-native-firebase_app] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-33
+80
+81        <service
+81-->[:react-native-firebase_app] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-23:19
+82            android:name="com.google.firebase.components.ComponentDiscoveryService"
+82-->[:react-native-firebase_app] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-84
+83            android:directBootAware="true"
+83-->[:react-native-firebase_app] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-43
+84            android:exported="false" >
+84-->[:react-native-firebase_app] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+85            <meta-data
+85-->[:react-native-firebase_app] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:85
+86                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+86-->[:react-native-firebase_app] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-120
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[:react-native-firebase_app] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-82
+88            <meta-data
+88-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/9eadc3f88e42e982862d2a24cf6149c6/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:31:13-33:85
+89                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+89-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/9eadc3f88e42e982862d2a24cf6149c6/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:32:17-139
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/9eadc3f88e42e982862d2a24cf6149c6/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:33:17-82
+91            <meta-data
+91-->[com.google.firebase:firebase-installations:17.1.2] /Users/mac-4/.gradle/caches/transforms-3/572dcc25cf8dc4df540e9da62e316ebf/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:17:13-19:85
+92                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+92-->[com.google.firebase:firebase-installations:17.1.2] /Users/mac-4/.gradle/caches/transforms-3/572dcc25cf8dc4df540e9da62e316ebf/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:18:17-127
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[com.google.firebase:firebase-installations:17.1.2] /Users/mac-4/.gradle/caches/transforms-3/572dcc25cf8dc4df540e9da62e316ebf/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:19:17-82
+94        </service>
+95
+96        <provider
+96-->[:react-native-firebase_app] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-29:38
+97            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+97-->[:react-native-firebase_app] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-88
+98            android:authorities="com.birlingo.reactnativefirebaseappinitprovider"
+98-->[:react-native-firebase_app] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-86
+99            android:exported="false"
+99-->[:react-native-firebase_app] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-37
+100            android:initOrder="99" />
+100-->[:react-native-firebase_app] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-35
+101        <provider
+101-->[:react-native-webview] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+102            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+102-->[:react-native-webview] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-83
+103            android:authorities="com.birlingo.fileprovider"
+103-->[:react-native-webview] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-64
+104            android:exported="false"
+104-->[:react-native-webview] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+105            android:grantUriPermissions="true" >
+105-->[:react-native-webview] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+106            <meta-data
+106-->[:react-native-webview] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:63
+107                android:name="android.support.FILE_PROVIDER_PATHS"
+107-->[:react-native-webview] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+108                android:resource="@xml/file_provider_paths" />
+108-->[:react-native-webview] /Users/mac-4/Desktop/git/audio_bridge/birlingo-app/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-60
+109        </provider>
+110
+111        <activity
+111-->[com.google.android.gms:play-services-auth:20.3.0] /Users/mac-4/.gradle/caches/transforms-3/d2a844b62e9d56c16841f90cfac3f18c/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:23:9-27:75
+112            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+112-->[com.google.android.gms:play-services-auth:20.3.0] /Users/mac-4/.gradle/caches/transforms-3/d2a844b62e9d56c16841f90cfac3f18c/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:24:13-93
+113            android:excludeFromRecents="true"
+113-->[com.google.android.gms:play-services-auth:20.3.0] /Users/mac-4/.gradle/caches/transforms-3/d2a844b62e9d56c16841f90cfac3f18c/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:25:13-46
+114            android:exported="false"
+114-->[com.google.android.gms:play-services-auth:20.3.0] /Users/mac-4/.gradle/caches/transforms-3/d2a844b62e9d56c16841f90cfac3f18c/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:26:13-37
+115            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+115-->[com.google.android.gms:play-services-auth:20.3.0] /Users/mac-4/.gradle/caches/transforms-3/d2a844b62e9d56c16841f90cfac3f18c/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:27:13-72
+116        <!--
+117            Service handling Google Sign-In user revocation. For apps that do not integrate with
+118            Google Sign-In, this service will never be started.
+119        -->
+120        <service
+120-->[com.google.android.gms:play-services-auth:20.3.0] /Users/mac-4/.gradle/caches/transforms-3/d2a844b62e9d56c16841f90cfac3f18c/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:33:9-37:51
+121            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+121-->[com.google.android.gms:play-services-auth:20.3.0] /Users/mac-4/.gradle/caches/transforms-3/d2a844b62e9d56c16841f90cfac3f18c/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:34:13-89
+122            android:exported="true"
+122-->[com.google.android.gms:play-services-auth:20.3.0] /Users/mac-4/.gradle/caches/transforms-3/d2a844b62e9d56c16841f90cfac3f18c/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:35:13-36
+123            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+123-->[com.google.android.gms:play-services-auth:20.3.0] /Users/mac-4/.gradle/caches/transforms-3/d2a844b62e9d56c16841f90cfac3f18c/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:36:13-107
+124            android:visibleToInstantApps="true" />
+124-->[com.google.android.gms:play-services-auth:20.3.0] /Users/mac-4/.gradle/caches/transforms-3/d2a844b62e9d56c16841f90cfac3f18c/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:37:13-48
+125
+126        <provider
+126-->[com.google.firebase:firebase-common:20.3.0] /Users/mac-4/.gradle/caches/transforms-3/898bb9e704892152269b50e8005b35cc/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:25:9-30:39
+127            android:name="com.google.firebase.provider.FirebaseInitProvider"
+127-->[com.google.firebase:firebase-common:20.3.0] /Users/mac-4/.gradle/caches/transforms-3/898bb9e704892152269b50e8005b35cc/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:26:13-77
+128            android:authorities="com.birlingo.firebaseinitprovider"
+128-->[com.google.firebase:firebase-common:20.3.0] /Users/mac-4/.gradle/caches/transforms-3/898bb9e704892152269b50e8005b35cc/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:27:13-72
+129            android:directBootAware="true"
+129-->[com.google.firebase:firebase-common:20.3.0] /Users/mac-4/.gradle/caches/transforms-3/898bb9e704892152269b50e8005b35cc/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:28:13-43
+130            android:exported="false"
+130-->[com.google.firebase:firebase-common:20.3.0] /Users/mac-4/.gradle/caches/transforms-3/898bb9e704892152269b50e8005b35cc/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:29:13-37
+131            android:initOrder="100" />
+131-->[com.google.firebase:firebase-common:20.3.0] /Users/mac-4/.gradle/caches/transforms-3/898bb9e704892152269b50e8005b35cc/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:30:13-36
+132
+133        <activity
+133-->[com.google.android.gms:play-services-base:18.0.1] /Users/mac-4/.gradle/caches/transforms-3/55a57e02b5974c0f655f1c4dff03ea11/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+134            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+134-->[com.google.android.gms:play-services-base:18.0.1] /Users/mac-4/.gradle/caches/transforms-3/55a57e02b5974c0f655f1c4dff03ea11/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+135            android:exported="false"
+135-->[com.google.android.gms:play-services-base:18.0.1] /Users/mac-4/.gradle/caches/transforms-3/55a57e02b5974c0f655f1c4dff03ea11/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+136            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+136-->[com.google.android.gms:play-services-base:18.0.1] /Users/mac-4/.gradle/caches/transforms-3/55a57e02b5974c0f655f1c4dff03ea11/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+137
+138        <receiver
+138-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/918e09931bc81134afb4df3223fa6127/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:29:9-33:20
+139            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+139-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/918e09931bc81134afb4df3223fa6127/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:30:13-85
+140            android:enabled="true"
+140-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/918e09931bc81134afb4df3223fa6127/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:31:13-35
+141            android:exported="false" >
+141-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/918e09931bc81134afb4df3223fa6127/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:32:13-37
+142        </receiver>
+143
+144        <service
+144-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/918e09931bc81134afb4df3223fa6127/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:35:9-38:40
+145            android:name="com.google.android.gms.measurement.AppMeasurementService"
+145-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/918e09931bc81134afb4df3223fa6127/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:36:13-84
+146            android:enabled="true"
+146-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/918e09931bc81134afb4df3223fa6127/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:37:13-35
+147            android:exported="false" />
+147-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/918e09931bc81134afb4df3223fa6127/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:38:13-37
+148        <service
+148-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/918e09931bc81134afb4df3223fa6127/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:39:9-43:72
+149            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+149-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/918e09931bc81134afb4df3223fa6127/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:40:13-87
+150            android:enabled="true"
+150-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/918e09931bc81134afb4df3223fa6127/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:41:13-35
+151            android:exported="false"
+151-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/918e09931bc81134afb4df3223fa6127/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:42:13-37
+152            android:permission="android.permission.BIND_JOB_SERVICE" />
+152-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/mac-4/.gradle/caches/transforms-3/918e09931bc81134afb4df3223fa6127/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:43:13-69
+153
+154        <meta-data
+154-->[com.google.android.gms:play-services-basement:18.1.0] /Users/mac-4/.gradle/caches/transforms-3/a0bbb912ddf64661bf70171b2fdc1fd9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+155            android:name="com.google.android.gms.version"
+155-->[com.google.android.gms:play-services-basement:18.1.0] /Users/mac-4/.gradle/caches/transforms-3/a0bbb912ddf64661bf70171b2fdc1fd9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+156            android:value="@integer/google_play_services_version" />
+156-->[com.google.android.gms:play-services-basement:18.1.0] /Users/mac-4/.gradle/caches/transforms-3/a0bbb912ddf64661bf70171b2fdc1fd9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+157        <meta-data
+157-->[com.android.billingclient:billing:4.0.0] /Users/mac-4/.gradle/caches/transforms-3/417bf65c9bfd2cec41a0502dbdd5ee67/transformed/jetified-billing-4.0.0/AndroidManifest.xml:13:9-15:37
+158            android:name="com.google.android.play.billingclient.version"
+158-->[com.android.billingclient:billing:4.0.0] /Users/mac-4/.gradle/caches/transforms-3/417bf65c9bfd2cec41a0502dbdd5ee67/transformed/jetified-billing-4.0.0/AndroidManifest.xml:14:13-73
+159            android:value="4.0.0" />
+159-->[com.android.billingclient:billing:4.0.0] /Users/mac-4/.gradle/caches/transforms-3/417bf65c9bfd2cec41a0502dbdd5ee67/transformed/jetified-billing-4.0.0/AndroidManifest.xml:15:13-34
+160
+161        <activity
+161-->[com.android.billingclient:billing:4.0.0] /Users/mac-4/.gradle/caches/transforms-3/417bf65c9bfd2cec41a0502dbdd5ee67/transformed/jetified-billing-4.0.0/AndroidManifest.xml:17:9-21:75
+162            android:name="com.android.billingclient.api.ProxyBillingActivity"
+162-->[com.android.billingclient:billing:4.0.0] /Users/mac-4/.gradle/caches/transforms-3/417bf65c9bfd2cec41a0502dbdd5ee67/transformed/jetified-billing-4.0.0/AndroidManifest.xml:18:13-78
+163            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+163-->[com.android.billingclient:billing:4.0.0] /Users/mac-4/.gradle/caches/transforms-3/417bf65c9bfd2cec41a0502dbdd5ee67/transformed/jetified-billing-4.0.0/AndroidManifest.xml:19:13-96
+164            android:exported="false"
+164-->[com.android.billingclient:billing:4.0.0] /Users/mac-4/.gradle/caches/transforms-3/417bf65c9bfd2cec41a0502dbdd5ee67/transformed/jetified-billing-4.0.0/AndroidManifest.xml:20:13-37
+165            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+165-->[com.android.billingclient:billing:4.0.0] /Users/mac-4/.gradle/caches/transforms-3/417bf65c9bfd2cec41a0502dbdd5ee67/transformed/jetified-billing-4.0.0/AndroidManifest.xml:21:13-72
+166    </application>
+167
+168</manifest>

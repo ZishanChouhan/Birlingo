@@ -1,0 +1,6 @@
+module Pods_birlingo {
+  umbrella header "Pods-birlingo-umbrella.h"
+
+  export *
+  module * { export * }
+}

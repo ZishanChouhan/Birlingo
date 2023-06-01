@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "105221082816",
+    "firebase_url": "https://birlingo-9e2a2.firebaseio.com",
+    "project_id": "birlingo-9e2a2",
+    "storage_bucket": "birlingo-9e2a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105221082816:android:fdebef56a72b93c678e725",
+        "android_client_info": {
+          "package_name": "com.birlingo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "105221082816-88a53c3v3hdbjjn6fl14angtqs2c1b1q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.birlingo",
+            "certificate_hash": "43e59e9c891e931c1b9df566b8fb1b40af042c88"
+          }
+        },
+        {
+          "client_id": "105221082816-flf142inf7o7pifcv7pe0dmf976fl2s7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.birlingo",
+            "certificate_hash": "d2c24db7ceb77ed321904185eef41a7f966473b9"
+          }
+        },
+        {
+          "client_id": "105221082816-lfu8er9b10cid8ndl9cou9nu8qkq2pd0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.birlingo",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "105221082816-4gnm79pv6vpf47shudurrrf8iap1pn6v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQH1uqOztVhRwxwc-KufD8nt0sv16j-hg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "105221082816-0ai54u4jpst6bln9hd7uqjpntejr1ba6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "105221082816-us52nc776i78103d54ob8ljh7pc9at4u.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.birlingo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
